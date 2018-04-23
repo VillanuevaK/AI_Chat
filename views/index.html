@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>AI Chat</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/style.css"> <!--order of this matters-->
+  </head>
+
+  <body>
+    <section>
+      <h1>AI Chat with Web Speech and Socket.io</h1>
+
+      <!-- <button><i class = "fa fa-microphone"></i></button> -->
+      <button id = "send"><i class = "fa fa-microphone"></i></button>
+
+      <div>
+        <p>You said: <em class = "output-you">...</em></p>
+        <p>Bot replied: <em class = "output-bot">...</em></p>
+      </div>
+
+    </section>
+
+    <script src = "/socket.io/socket.io.js"></script>
+    <script src = "js\script.js"></script><!--Include code from script js -->
+  </body>
+</html>
